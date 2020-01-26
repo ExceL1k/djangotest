@@ -1,3 +1,3 @@
 #!/bin/bash
-source /home/user/code/project1/env/bin/activate
-exec gunicorn -c "/home/user/code/project1/project1/gunicorn_config.py" project1.wsgi
+source /home/user/code/djangotest/env/bin/activate
+exec gunicorn -c "/home/user/code/djangotest/gunicorn_config.py" workbook.wsgi
